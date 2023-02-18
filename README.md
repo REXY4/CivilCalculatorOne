@@ -15,8 +15,10 @@ Untuk menginstal proyek React Native, ikuti langkah-langkah berikut:
 
 1. Buka jendela terminal dan arahkan ke direktori di mana Anda ingin membuat proyek.
 3. install proyek dengan menggunakan :
-    - npm install
 
+```
+    $ npm install
+```
 ## Menjalankan Aplikasi
 
 Untuk menjalankan aplikasi pada perangkat Android, ikuti langkah-langkah berikut:
