@@ -8,6 +8,9 @@ Pastikan bahwa perangkat lunak berikut telah terpasang di mesin pengembangan lok
 
 - Node.js (v12 atau yang lebih baru)
 - npm
+- android studio
+- react-native
+- react-native-cli
 
 ## Instalasi
 
@@ -36,7 +39,8 @@ Untuk menjalankan aplikasi pada perangkat Android, ikuti langkah-langkah berikut
         List of devices attached
         7hivwkpnu4pffaxo        device
     ```    
- -copy contho id yang di atas  '7hivwkpnu4pffaxo'   
+ -copy contho id yang di atas  '7hivwkpnu4pffaxo'
+
  - jalan kan perintah ini untuk bisa di jalankan di hp android   
 ```
     npx react-native run-android --deviceId=<id device>
