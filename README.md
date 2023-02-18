@@ -31,6 +31,12 @@ Untuk menjalankan aplikasi pada perangkat Android, ikuti langkah-langkah berikut
     ```
         adb devices
     ```
+- lalu copy id devices seperti yang di bawah ini 
+    ```
+        List of devices attached
+        7hivwkpnu4pffaxo        device
+    ```    
+ -copy contho id yang di atas  '7hivwkpnu4pffaxo'   
  - jalan kan perintah ini untuk bisa di jalankan di hp android   
 ```
     npx react-native run-android --deviceId=<id device>
