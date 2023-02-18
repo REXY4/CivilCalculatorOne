@@ -17,7 +17,7 @@ Untuk menginstal proyek React Native, ikuti langkah-langkah berikut:
 3. install proyek dengan menggunakan :
 
 ```
-    $ npm install
+    npm install
 ```
 ## Menjalankan Aplikasi
 
@@ -27,7 +27,14 @@ Untuk menjalankan aplikasi pada perangkat Android, ikuti langkah-langkah berikut
 2. Aktifkan pengaturan pengembang dan debugging USB di perangkat Android Anda.
 3. Buka jendela terminal dan arahkan ke direktori proyek.
 4. Jalankan perintah berikut untuk memulai aplikasi di perangkat Anda:
-
+- jalankan adb devices di terminal/powershell 
+    ```
+        adb devices
+    ```
+ - jalan kan perintah ini untuk bisa di jalankan di hp android   
+```
+    npx react-native run-android --deviceId=<id device>
+```
 ## Struktur Proyek
 
 Struktur proyek terorganisir sebagai berikut:
